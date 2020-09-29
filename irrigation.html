@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Irrigation system</title>
+<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+<link rel="stylesheet" href="irrigation.css">
+</head>
+<body>
+<div class="container">
+
+<h1 id="a"> BEST SYSTEM IRRIGATION FOR YOUR PLANTS </h1>
+<div class="plants">
+
+  <form>
+  <p>Please choose your plant</p>
+  <input type="radio" id="tomato" name="contact" onclick="clickRadio(event)" value="tomato">
+  <label for="tomato">tomato</label><br>
+
+  <input type="radio" id="potatos" name="contact" onclick="clickRadio(event)" value="potatos">
+  <label for="potatos">potatos</label><br>
+
+  <input type="radio" id="onions" name="contact" onclick="clickRadio(event)" value="onions" >
+  <label for="onions">onions</label><br>
+
+  <input type="radio" id="peas" name="contact" onclick="clickRadio(event)" value="peas">
+  <label for="peas">peas</label><br>
+
+</form>
+</div>
+
+<div class="seasons">
+	
+ <p> choose the season,please!</p>
+ <br>
+ <button onclick="myFunction(event)" value ="winter">winter</button>
+  <button onclick="myFunction(event)" value ="spring">spring</button>
+  <button onclick="myFunction(event)" value ="summer">summer</button>
+  <button onclick="myFunction(event)" value ="autumn">autumn</button>
+ 
+ </div>
+
+<div class="land">
+
+
+  <form>
+  	<p> choose the quality of your land </p>
+  <input type="radio" id="Sandy" name="contact" onclick="clickFalio(event)" value="Sandy" >
+  <label for="Sandy">Sandy</label><br>
+
+  <input type="radio" id="Slit " name="contact" onclick="clickFalio(event)" value="Slit">
+  <label for="Slit ">Slit </label><br>
+
+  <input type="radio" id="Clay" name="contact" onclick="clickFalio(event)" value="Clay">
+  <label for="Clay">Clay</label><br>
+
+  <input type="radio" id="Loamy" name="contact" onclick="clickFalio(event)" value="Loamy">
+  <label for="Loamy">Loamy</label><br>
+
+</form>
+</div>
+</div>
+
+<script src="irrigation.js"></script>
+</body>
+</html>

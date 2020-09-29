@@ -1,0 +1,38 @@
+
+#a {color:red;
+    text-align: center;
+
+
+}
+
+
+.plants{
+ display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  font-size: 20px;
+}
+
+.seasons{
+display: flex;
+  justify-content: center;
+  padding-bottom: 60px;
+font-size: 20px;
+padding-left: 100px;
+}
+.land{
+	display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+  font-size: 20px;
+  padding-left: 60px;
+}
+body{
+	background: url(water.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+.container{
+	justify-content: center;
+
+}
